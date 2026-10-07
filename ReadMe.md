@@ -79,6 +79,8 @@ back that up to your local computer if you'd like.
 
 Helps you to see and align the structures in the clauses to see relationships and parts of speech. This is set up for Koine Greek currently, but it works well enough to show you the idea. I need to add the Akkadian grammar and parse rules to make this work correctly.
 
+<img width="872" height="531" alt="image" src="https://github.com/user-attachments/assets/be6b58d7-9ad5-46f4-92a1-8430f2cdd0cc" />
+
 # Many more features...
 * Reader
   * Show signs only
