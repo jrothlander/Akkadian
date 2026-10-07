@@ -1,8 +1,9 @@
-# Akkadian Translator Workbench & Interlinear/Lexicon Builder
+# Akkadian Translator Workbench 
+> & Interlinear/Lexicon Builder
 
 This repo is mostly informational details for an interlinear development tool I created decades ago and have recently migrated to the latest web technology. I created the tool as a means to learn Koine Greek when I was taking courses for my master's. 
-However, I designed it to be language agnostic. To test multiple languages, I created a language pack for Akkadian (Old Babylonian), and I am really impressed with how well it works. Of course, I am not an Akkadian scholar. But working through this
-piqued my curiosity in Akkadian again, something I have not really worked on in a decade or more. So, I am working through the grammar texts again, and I really enjoy it. So, my intent is to keep working on the tool as well and continuemaking it better. 
+However, I designed it to be language-agnostic. To test multiple languages, I created a language pack for Akkadian (Old Babylonian), and I am really impressed with how well it works. Of course, I am not an Akkadian scholar. But working through this
+piqued my curiosity in Akkadian again, something I have not really worked on in a decade or more. So, I am working through the grammar texts again, and I really enjoy it. So, my intent is to keep working on the tool as well and continue making it better. 
 
 ### Why hasn't this been done before?
 I do understand that there are issues and no one has created something like this for Akkadian for valid reasons. But even so, I think I can work around much of that and make the app useful for students trying to learn, even if it is not useful for scholars. 
@@ -49,15 +50,15 @@ translate the text, I can use the gloss as a helper, but it is up to the transla
 
 ### Translation Mode
 
-In the translation mode, I can set up my lexicon entries as I work through the text. Or I can go to the lexicon page and set up entiries there. Here on the translation page
-can enter the translation and save it for only this text, mark the word as untranslated, or I an tell it to create this as a new lexicon entry and auto-gloss this word if
+In the translation mode, I can set up my lexicon entries as I work through the text. Or I can go to the lexicon page and set up entries there. Here on the translation page
+can enter the translation and save it for only this text, mark the word as untranslated, or I can tell it to create this as a new lexicon entry and auto-gloss this word if
 it shows up again.
 
 <img width="962" height="652" alt="image" src="https://github.com/user-attachments/assets/d312f550-c618-4cb5-b5e1-2281d2d7f9a0" />
 
 ### Word Order
 
-Once you work through your translations, you will need to set the word order. When translation from Akkadian to English, you will need to add filler words, punctuation, and mark 
+Once you work through your translations, you will need to set the word order. When translating from Akkadian to English, you will need to add filler words, punctuation, and mark 
 words that do not translate. To do this, I have a page to manage these. The idea here is that you set it up once and the application saves it as a sort of algorithm. You then 
 apply that to the text to generate your final translation. This way, as you go back to your translations and adjust them, you just regenerate the text and your word order, 
 punctuation, added words, excluded words, etc. are all automatically applied. 
@@ -74,24 +75,37 @@ back that up to your local computer if you'd like.
 
 <img width="795" height="359" alt="image" src="https://github.com/user-attachments/assets/6b224260-eea8-43e3-b169-7f8282e2ac85" />
 
+### Sentence Diagrammer & Outline Generation
+
+Helps you to see and align the structures in the clauses to see relationships and parts of speech. This is set up for Koine Greek currently, but it works well enough to show you the idea. I need to add the Akkadian grammar and parse rules to make this work correctly.
+
 # Many more features...
 * Reader
   * Show signs only
   * Show transliterations only (with or without lemma)  
+* Sentence Diagrammer & Outline Generator
+  * Using an algorithm over the parse-tags to create a sentence diagram. 
 * Parsing practice pages/sheets
   * Practice your parsing and the app will tell you when you get it wrong.
   * Practice your translation and the app will grade you. It uses a distance equation against the lexicon to grade your translation.   
 * Lexicon Builder
-  * Exports to Word 
+  * Build your own custom lexicon(s)
+    * Create a lexicon for a given text. Say every word in Codex Hammurabi or Gilgamesh
+    * Create your own and choose which works to include from translations or existing lexicons already supported.
+    * Manage your lexicon as you see fit.
+    * Export it to Word or share it with others.   
 * Interlinear Builder
-  * Exports to Word 
+  * Choose which features you want to display
+  * Export to Word
+  * Share it with others
 * Test & Quizzes
   * Turn any line or clause of text into a test or quiz and track your progress.
   * Turn any line or clause into a flashcard drill... "know it, don't know it" style.
+  * I will be adding new features here to create text questions and other features I think would be helpful.
 * Import/Export 
   * Import transliteration and have it create the cuneiform and auto-gloss anything that is already in your lexicon(s).
-  * Create your own transliteration from scratch to create your own texts.
-  * Export any of the documents to share with others.
+  * Create your own transliteration from scratch to create your own texts, translations, quizzes, tests, documents, etc.
+  * Export any of the documents to share with others or export to Word.
 * Supports other languages.
-  * Koine Greek was what I started with.
+  * Koine Greek was what I started with and is already supported.
   * New language packs can be added.
