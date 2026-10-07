@@ -42,9 +42,7 @@ Here's the clause-style display, creating lines of text based on the clause. I a
 
 ## Gilgamesh
 
-Here's the _Epic of Gilgamesh_ text. I have set _ana_ in the lexicon and told it to auto-gloss it any time it finds it. So once I set this up, it will display the lemma, parse tag, 
-and lexicon entry for me. The idea here is that I can work through and set up my lexicon and apply it to the whole text or other texts as I see fit. But when it comes time to 
-translate the text, I can use the gloss as a helper, but it is up to the translator to decide the translation... not the lexicon.   
+Here's the _Epic of Gilgamesh_ text. I have set _ana_ in the lexicon and told it to auto-gloss it anytime it finds it. So once I set this up, it will display the lemma, parse tag, and lexicon entry for me. The idea is that you can work through and set up my lexicon and apply it to the whole text or other texts as I see fit. But when it comes time to translate the text, I can use the gloss as a helper, but it is up to the translator to decide the translation... not the lexicon. In this screenshot, I had it set not to gloss, but I intended to accept the gloss. So you can let the lexicon create a mechanical translation of sorts if you wish. That is not really what you want to do, but you can. I think it helps to do that when learning. But the lexicon stores the lexical entry, which is nominative-singular-masculine. So you have to adjust the translation to fit the actual word in the text. I do support having additional parsing options in the lexicons. So you can set up a word in your lexicon and provide a translation for each declension, gender, number, etc., to make the mechanical translations more accurate. That is more of a linguistic feature used by translators than by academic scholars. But I support both. I am still working on a few of those features, but I will support all of this.       
 
 <img width="753" height="622" alt="image" src="https://github.com/user-attachments/assets/9e3826c8-127e-4570-ae70-ca705199faa2" />
 
@@ -58,16 +56,13 @@ it shows up again.
 
 ### Word Order
 
-Once you work through your translations, you will need to set the word order. When translating from Akkadian to English, you will need to add filler words, punctuation, and mark 
-words that do not translate. To do this, I have a page to manage these. The idea here is that you set it up once and the application saves it as a sort of algorithm. You then 
-apply that to the text to generate your final translation. This way, as you go back to your translations and adjust them, you just regenerate the text and your word order, 
-punctuation, added words, excluded words, etc. are all automatically applied. 
+Once you work through your translations, you will need to set the word order. When translating from Akkadian to English, you will need to add filler words, punctuation, and mark words that do not translate. To do this, I have a page to manage these. The idea here is that you set it up once and the application saves it as a sort of algorithm. You then apply that to the text to generate your final translation. This way, as you go back to your translations and adjust them, you just regenerate the text, and your word order, punctuation, added words, excluded words, etc. are all automatically applied. 
 
-I added punctuation, the, and of the to the text. But I did not modify the word order. But I could have just dragged and drop any of the words in any order and the app would maintain that.
+I added punctuation, "the", and "of the" to the text. But I did not modify the word order. But I could have just dragged and dropped any of the words in any order, and the app would maintain that.
 
 <img width="745" height="339" alt="image" src="https://github.com/user-attachments/assets/19ddfee3-a6c4-4b89-beef-d1d8f013ab30" />
 
-In my final translation, the word order, punction, excluded or added words, etc are all included. I have the line numbers listed as well, but you will be able to exclude those if you wish.  
+In my final translation, the word order, punctuation, excluded or added words, etc are all included. I have the line numbers listed as well, but you will be able to exclude those if you wish.  
 
 From here, you can save it as a text file, export it to Word, or export it as a file that you can send to someone else to load into their copy of the app. So a teacher could create
 the files and send it to all of their students to load into the app and work with. Or someone learning could export it to Word. But it is already saved in the app itself and you can
